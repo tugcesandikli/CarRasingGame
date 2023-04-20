@@ -1,0 +1,531 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1663835713468289, "dur": 7447650, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835713472113, "dur": 35127, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835713507542, "dur": 82702, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835713590298, "dur": 459079, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835714049434, "dur": 6854736, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835720904224, "dur": 11714, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835728010151, "dur": 554227, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835728010712, "dur": 1617, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835728012334, "dur": 76370, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835728088729, "dur": 392620, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835728481358, "dur": 81758, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835728563134, "dur": 1243, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835728565265, "dur": 195, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1663835728245429, "dur": 204503, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663835728247332, "dur": 98377, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663835728419568, "dur": 8338, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663835728427937, "dur": 21927, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663835728430762, "dur": 18563, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663835728455701, "dur": 1894, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663835728454364, "dur": 3280, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835728565628, "dur": 295, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663835728527149, "dur":1190, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728528346, "dur":776, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663835728529129, "dur":7, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663835728529136, "dur":177, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663835728529329, "dur":346, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728529675, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728550991, "dur":22, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551013, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551017, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551018, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551019, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551021, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551022, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551023, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551024, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551026, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551027, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551028, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551029, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551031, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551031, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551033, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551033, "dur":3, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551042, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728551045, "dur":844, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663835728529191, "dur":494, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728529687, "dur":1060, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728530747, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663835728530753, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728531328, "dur":243, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663835728531571, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663835728531576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728531624, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663835728531784, "dur":2132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728533917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728533963, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728534139, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728534219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728534256, "dur":148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728534406, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728534501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728534503, "dur":170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728534690, "dur":1510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728536201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728536204, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728536350, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728536366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728536367, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728536480, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728536504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728536506, "dur":94, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728536602, "dur":1846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728538449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728538451, "dur":105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728538558, "dur":7128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728545687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728545689, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728545853, "dur":3781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728549635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728549637, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663835728549774, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1663835728549778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728549782, "dur":296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1663835728550156, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1663835728550237, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728550315, "dur":342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1663835728550709, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1663835728550745, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663835728550803, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1663835728550967, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1663835728550967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728529207, "dur":481, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728529698, "dur":1051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728530749, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1663835728530823, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728531259, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1663835728531783, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1663835728531787, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728531793, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1663835728531932, "dur":14762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728546695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728546697, "dur":392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728547092, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728547846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728547848, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728547997, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728548679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728548681, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728548795, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728548815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728548817, "dur":228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728549047, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728549345, "dur":30, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728549443, "dur":256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728549701, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728549788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728549789, "dur":331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663835728550223, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1663835728550284, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663835728550376, "dur":288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1663835728550730, "dur":249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728529226, "dur":474, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728529700, "dur":1050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728530750, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663835728530807, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728531302, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663835728531480, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1663835728531872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728531874, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1663835728532106, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663835728532116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728532216, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663835728532385, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728532652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728532656, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728532783, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728532882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728532884, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728533029, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728533107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728533109, "dur":97, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728533207, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728533884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728533886, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728534007, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728534079, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728534107, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728534234, "dur":798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728535034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728535036, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728535155, "dur":4942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728540098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728540101, "dur":98, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728540201, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728540223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728540225, "dur":94, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728540320, "dur":6277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728546599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728546601, "dur":354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728547024, "dur":696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728547721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728547723, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728548231, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728548792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728548795, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728548912, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728548937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728548939, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728549084, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728549128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728549133, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728549395, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728549611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728549613, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663835728549759, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1663835728549871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728550030, "dur":301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1663835728550424, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1663835728550451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663835728550454, "dur":298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1663835728550784, "dur":197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728529241, "dur":460, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728529702, "dur":1048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728530751, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1663835728530831, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728531077, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1663835728531431, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1663835728531874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728531877, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1663835728532025, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game.exe" }}
+,{ "pid":12345, "tid":4, "ts":1663835728532239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728532241, "dur":180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game.exe" }}
+,{ "pid":12345, "tid":4, "ts":1663835728532428, "dur":2246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728534676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728534695, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728534838, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728534852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728534854, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728535013, "dur":10433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728545447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728545450, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728545621, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728545641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728545643, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728545846, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/AimingRig.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728545870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728545871, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/AimingRig.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728546047, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728546151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728546152, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728546301, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728546870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728546872, "dur":229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728547104, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728547130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728547132, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728547292, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728547317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728547319, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728547470, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728547505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728547525, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728547687, "dur":1371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728549060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728549063, "dur":199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728549264, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728549285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728549287, "dur":251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728549610, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728549954, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728550067, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663835728550533, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1663835728550595, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663835728550667, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1663835728550880, "dur":114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728529258, "dur":445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728529703, "dur":1090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728530793, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1663835728531248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728531286, "dur":217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1663835728531505, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1663835728531519, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728531549, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1663835728531674, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1663835728531678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728531679, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1663835728531836, "dur":5794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728537632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728537636, "dur":100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728537738, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728537777, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728537779, "dur":91, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728537871, "dur":837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728538742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728538749, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728538870, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728538889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728538890, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728538986, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728539060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728539062, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728539158, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728539176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728539178, "dur":98, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728539278, "dur":2900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542195, "dur":245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542442, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542468, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542572, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542649, "dur":191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542842, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728542873, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728543000, "dur":2150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728545152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728545154, "dur":153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728545312, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728545366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728545368, "dur":148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728545519, "dur":1192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728546712, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728546714, "dur":182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728546898, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728546933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728546935, "dur":235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728547182, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728547601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728547603, "dur":450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728548056, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728548079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728548088, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728548235, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728548274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728548276, "dur":331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728548609, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728548908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728548910, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728549068, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728549087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728549089, "dur":275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728549429, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728549820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728549823, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663835728550292, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1663835728550368, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663835728550434, "dur":296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1663835728550760, "dur":217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728529278, "dur":427, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728529705, "dur":1079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728530786, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663835728530865, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728531075, "dur":317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663835728531397, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663835728531401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728531405, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663835728531628, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1663835728532061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728532064, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1663835728532193, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728532227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728532264, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728532431, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728532822, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728532824, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728532950, "dur":1390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728534341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728534343, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728534464, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728534486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728534488, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728534620, "dur":9471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728544092, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728544094, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728544233, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728544272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728544274, "dur":96, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728544372, "dur":3035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728547411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728547417, "dur":300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728547720, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728547748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728547750, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728547925, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728547969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728547971, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728548107, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728548279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728548281, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728548410, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728548452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728548454, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728548621, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728548667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728548669, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728548779, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728549111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728549112, "dur":207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728549406, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728549821, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728549823, "dur":356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663835728550262, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663835728550325, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728550404, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663835728550693, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1663835728550760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663835728550762, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1663835728550920, "dur":78, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728529292, "dur":415, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728529707, "dur":1113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728530821, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1663835728531119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728531164, "dur":248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1663835728531415, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663835728531420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728531422, "dur":223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663835728531648, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1663835728531913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728531915, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1663835728532047, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1663835728532096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728532241, "dur":256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1663835728532500, "dur":1547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728534049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728534051, "dur":110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728534163, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728534196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728534198, "dur":106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728534306, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728534975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728534977, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728535095, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728535110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728535112, "dur":104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728535217, "dur":3327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728538545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728538547, "dur":189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728538739, "dur":1649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728540389, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728540391, "dur":96, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728540489, "dur":1745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728542236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728542238, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728542385, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728542646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728542648, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728542779, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728542852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728542854, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728542974, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728542995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728543013, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728543159, "dur":689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728543849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728543852, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728543968, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728544048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728544050, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728544155, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728544473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728544475, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728544629, "dur":2536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728547166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728547176, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728547363, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728547400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728547402, "dur":176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728547581, "dur":730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728548312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728548314, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728548519, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728548545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728548546, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728548659, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728549159, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728549192, "dur":309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728549569, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728549653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728549665, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663835728549935, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1663835728549992, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728550067, "dur":310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1663835728550444, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1663835728550506, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663835728550597, "dur":242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1663835728550862, "dur":127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728529317, "dur":392, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728529709, "dur":1086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728530797, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1663835728531148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728531160, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1663835728531524, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1663835728531548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728531551, "dur":285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1663835728531840, "dur":2130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1663835728533971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728533973, "dur":113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1663835728534088, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728534257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728534259, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728534379, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728534402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728534404, "dur":244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728534659, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728534864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728534866, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728534994, "dur":1204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728536199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728536202, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728536323, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728536348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728536350, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728536460, "dur":7221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728543682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728543685, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728543818, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728543843, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728543845, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728543987, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728544057, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728544065, "dur":105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728544172, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728544191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728544193, "dur":110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728544305, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728544353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728544358, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728544518, "dur":1824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728546344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728546346, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728546528, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728546549, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728546551, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728546722, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728546748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728546750, "dur":187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728546989, "dur":773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728547763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728547765, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728547942, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728548218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728548222, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728548351, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728548367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728548369, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728548536, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728548847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728548849, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728549005, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728549058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728549076, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728549234, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728549517, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728549603, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663835728550246, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles car rasing game/Car Rasing Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663835728550297, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663835728550388, "dur":271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"car rasing game/Car Rasing Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663835728550717, "dur":259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663835728552717, "dur":370, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1663835728565955, "dur": 290, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663835728564871, "dur": 1378, "ph": "X", "name": "Write chrome-trace events", "args": {} },
